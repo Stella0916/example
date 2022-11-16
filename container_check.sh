@@ -8,5 +8,5 @@ if [ - "$NGINX_CONTAINER_ID" ];
         docker run -d -p 80:80 --name nginx nginx:test
     else
         echo "nginx container not exist"
-        docer run -d -p 80:80 --name nginx nginx:test
+        docker run -d -p 80:80 --name nginx nginx:test
 fi
