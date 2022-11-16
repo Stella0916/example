@@ -1,4 +1,4 @@
-NGINX_CONTAINER_ID = `docker ps -aq --filter 'name=nginx'`
+NGINX_CONTAINER_ID=`docker ps -aq --filter 'name=nginx'`
 
 if [ -n "$NGINX_CONTAINER_ID" ];
     then
